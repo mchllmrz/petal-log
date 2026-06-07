@@ -40,7 +40,7 @@ export default function NotesPage() {
     const selectedNote = notes.find(n => n.id === selectedNoteId)
 
     return (
-        <div className="flex flex-col h-screen bg-[#0e1929] overflow-hidden">
+        <div className="flex flex-col h-screen bg-[#0e1929] overflow-hidden pt-16 md:pt-0">
             <GuestBanner />
 
             <div className="flex flex-1 overflow-hidden min-h-0">
